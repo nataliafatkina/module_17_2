@@ -1,4 +1,4 @@
-from Module_17.app.backend.db import Base
+from app.backend.db import Base
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 
